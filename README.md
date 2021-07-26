@@ -1,104 +1,101 @@
-![logo](./images/dokalylogo.png)
 
-<BR>
+![DOKALY-LOGO](https://user-images.githubusercontent.com/54341829/126936657-5adb6d97-d118-4789-8815-a711a9a2c61c.png)
+
+![DOKALY21](https://user-images.githubusercontent.com/54341829/126936573-468bdbb0-c03e-46c6-b2d9-5ebdaad3bc5f.gif)
 
 ## Match maker match maker make me a match already!
 
 ---
 
-<br>
-
 ## GLOSSARY
 
 - [In the beginning](##In-the-beginning)
-- [Then there was](#then-there-was)
+- [What if](#what-if)
 - [How it works](#how-it-works)
-- [Why it works](#why-it-works)
 - [Who made it work](#who-made-it-work)
 - [What made it work](#what-made-it-work)
-- [Want to see it work?](#want-to-see-it-work?)
+- [See it Live](#see-it-live)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
 
 ---
-
-<br>
 
 ## In the beginning
 
-There were bands with songs, and there were visual artists with... yes, art. Those two camps had didn't always have the easiest time getting together... though I think they realy wanted to. For eons the two
-would produce beautiful work and long to share it with the other party... but limited searches, restrictive and exclusive and costly, sites dictated who saw who... it wasn't a pretty site.
+There were bands with songs, and there were visual artists with... yes, art. For eons the two would produce beautiful work and long to share it with the other party... but there were simply not connected.
 
 ---
 
-<br>
+## What if
 
-## Then there was
-
-Dokay.com saw the need and filled it.
-With the help of a few daft thumbs and opinonated faces, Dokay did what others dared not to do... didn't think was possible (Wayne). And now the arts can play freely, in a random world, they have found a home.
+We could connect artists? and more importantly, what if allow fans to get involved in deciding what art and images bets represent a song? 
 
 ---
-
-<br>
 
 ## How it works
 
-A user simply uploads a track that they'd like to have Dokaly users hear. Then they upload up to 10 images they want the listeners to consider while listening to the track. Users, once they set up an account, will be able to randomly listen to tracks and see the images associated with them. They can swipe left for no or right for yes. The artist that uploaded the track and images will get feedback and be able to make better decisions with their branding and marketing.
-
-<!-- A user will set up a simple profile, this account will be good for individuals wanting to listen and see, or for artists wanting to use the app. After a user sets up an account and logs in, the home page will randomly select music and present images, the user can like or dislike images based on the music they hear.
-
-For aritsts wishing to run a campaign, they can link tracks (up to 5) from their [soundcloud](https://www.soundcloud.com) account, and then upload up to 10 images to go with each track.
-
-artists can see their results, and they can archive or delete campaigns once they've achieved their goals. -->
+Each week, we feature a music artist and one of his songs. The fans are able to listen to the music and comment on pictures that match the mood of that song. Those feeling artisitic, can also submit their own art and allow other to comment  browse through many pictures
 
 ---
-
-<br>
-
-## Why it works
-
-This app works for both, users just wanting to interact with their favorite artists, as well as listen to new music, and artists wishing to engage their fans and recieve realtime feedback on topics like branding, image, marketing, and perception.
-
----
-
-<br>
 
 ## Who made it work
-
-Jazzy made it? No, no he didn't. This beautiful product has been brought to you by the thoughtful and caring people at Furious 6ix. Let's get to know them..
+This beautiful product has been brought to you by the thoughtful and caring people at Furious 6ix.
 
 - [Luis](https://github.com/luiscabrera77)
 - [Kaz](https://github.com/justbekazu)
 - [Jason](https://github.com/jayeebee)
 - [Zach](https://github.com/zpuckett)
 - [dj](djrhoten@gmail.com)
+- A guy named Freddy
 
 ---
 
-<br>
-
 ## What made it work
-
-- [Bootstrap](https://getbootstrap.com/)
 - [MongoDB](https://www.mongodb.com/)
 - [Express](https://expressjs.com/)
 - [React](https://reactjs.org/)
 - [Node](https://reactjs.org/)
-- [GraphQL](https://graphql.org/)
-- [Font Awesome](https://fontawesome.com/)
-- [JQuery](https://jquery.com/)
-- [Iconifier](https://iconifier.net/)
+
+But it also uses a plethora of packages like jwt, graphql, react-tinder-card, NPM faker, p-sleep, and many more, just check out the package.json files! 
 
 ---
 
-<br>
-
 ## Want to see it work?
+[Heroku](https://powerful-eyrie-95631.herokuapp.com/)
 
-[DOKALY](www.Dokaly.com)
+---
 
-[DOKALY Github](https://github.com/luiscabrera77/dokaly21.git)
+## Installation
+run "npm install" and then run "npm run seed"
 
-<br>
-<br>
+---
 
-##### ©2021 The furious 6ix
+## Usage
+"npm run develop" to start locally, and then "git push heroku main" to publish in Heroku (you must setup Mongo first)
+
+---
+
+## License
+MIT License Copyright
+(view most recent version at https://spdx.org/licenses/MIT.html)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy 
+of this software and associated documentation files (the "Software"), to deal 
+in the Software without restriction, including without limitation the rights 
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
+copies of the Software, and to permit persons to whom the Software is 
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all 
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
+SOFTWARE.
+
+##### ©2021 The Furious 6ix

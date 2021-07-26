@@ -1,8 +1,15 @@
+import { Link } from 'react-router-dom';
 import React from 'react';
+
 
 const ThoughtList = ({ thoughts }) => {
   if (!thoughts.length) {
-    return <h3>No Covers Yet</h3>;
+    return <div>
+    <img src="https://media.giphy.com/media/XErx4Alxhy7Uo9D6hX/source.gif" alt="No contributions" style={{ width:350}}/>
+    <h3>No Contributions</h3>
+    </div>
+    ;
+
   }
 
   return (
@@ -11,9 +18,11 @@ const ThoughtList = ({ thoughts }) => {
         {thoughts &&
           thoughts.map(thought => (
             <div key={thought._id}>
+              <Link to={`/thought/${thought._id}`}>
               <div style={{ backgroundImage: 'url(' + thought.thoughtText + ')' }} className='cardhorizontal'>
-              <h3>{thought.reactionCount} right swipes</h3>
+              <h3>{thought.reactionCount} comments</h3>
               </div>
+              </Link>  
             </div>
           ))}
       </div>
